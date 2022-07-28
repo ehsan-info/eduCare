@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Joan&family=Lobster&family=Poppins&display=swap');
+
+.body-web-font {
+    font-family: 'Joan', serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+.slider-caption-area {
+    transform: translate(0, -50%);
+}
+
+.slider-head-text {
+    font-size: 65px;
+    font-weight: 600;
+    line-height: 85px;
+}
+
+.slider-para-text {
+    font-size: 18px;
+    line-height: 30px;
+    color: #f4f4f4;
+}
+
+.slider-get-button {
+    font-weight: 600;
+    background-color: #289bde;
+    border: 0;
+}
