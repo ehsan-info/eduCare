@@ -6,6 +6,18 @@ body {
     font-family: 'Poppins', sans-serif !important;
 }
 
+.nav-educare-button:hover {
+    color: #ffffff !important;
+}
+
+.carousal-slider-img {
+    margin-top: 100px;
+}
+
+.carousal-slider-img img {
+    height: 700px;
+}
+
 .slider-caption-area {
     transform: translate(0, -50%);
 }
@@ -55,4 +67,45 @@ body {
 
 .company-social-lists .lind {
     padding: 5px 11px;
+}
+
+@media screen and (max-width: 576px) {
+    .carousal-slider-img img {
+        height: 450px;
+    }
+
+    .slider-caption-area {
+        transform: translate(0, 0%);
+    }
+
+    .slider-head-text {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .slider-para-text {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 991px) {
+    .carousal-slider-img img {
+        height: 450px;
+    }
+
+    .slider-caption-area {
+        transform: translate(0, 0%);
+    }
+
+    .slider-head-text {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .slider-para-text {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
 }
