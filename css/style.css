@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Joan&family=Lobster&family=Poppins&display=swap');
 
-.body-web-font {
+body {
     font-family: 'Joan', serif;
     font-family: 'Lobster', cursive;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif !important;
 }
 
 .slider-caption-area {
